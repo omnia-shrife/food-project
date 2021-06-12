@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="box1">
+            <a href="#">
+                <img src="logo.jpg" class="logo">
+            </a>
+        </div>
+        <div class="box2">
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="Menus.html" target="_blank">Menu</a></li>
+                <li><a href="Gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="About Us.html" target="_blank">AboutUs</a></li>
+                <li><a href="Register.html" target="_blank">Register</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="regos">
+            <h3>Registration Form</h3>
+            <div class="reg">
+                <form name="form1" action="index.html" method="post" onsubmit="return checkForm();">
+
+                    <div class="q">
+                        <label>First Name</label>
+                        <input type="text" class="input" id="fname" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="q">
+                        <label>Last Name</label>
+                        <input type="text" class="input" id="lname" placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="q">
+                        <label>Phone</label>
+                        <input type="Phone" class="input" id="phone" placeholder="Enter Your Phone">
+                    </div>
+                    <div class="q">
+                        <label>Email</label>
+                        <input type="email" id="mail" class="input" placeholder="info@mail.com">
+                    </div>
+                    <div class="q">
+                        <label>Password</label>
+                        <input type="password" class="input" id="pass" placeholder="Enter Your Password">
+                    </div>
+                    <div class="q">
+                        <label>Confirm Password</label>
+                        <input type="password" class="input" id="confpass" placeholder="Confirm Your Password">
+                    </div>
+                    <div class="q">
+                        <label>Gender</label>
+                        <select id="gender">
+                            <option selected="" value="Default">Select Your Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="q">
+                        <label>Address</label>
+                        <textarea class="textarea" placeholder="Optional Address"></textarea>
+                    </div>
+                    <div class="l">
+                        <input type="submit" name="" value="Sign Up" class="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>

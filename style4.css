@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 0 rgba(85, 85, 85, 0.85);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+div.box1{
+  width: 25%;
+}
+div.box2{
+  width: 75%;
+}
+.box2>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
+}
+li{
+  display: block;
+}
+.logo{
+    width: 75px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+.header a:hover{
+    color: orange;
+    font-size: 20px;
+}
+ul{
+  display: flex;
+}
+.container>div {
+    margin: 20px;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.timing,.contacts{
+    margin: 30px;
+    padding-bottom: 10px;
+}
+.e{
+    color: rgb(163, 160, 160);
+ }
+ .contento1{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dimage{
+    width: 500px;
+    height: 400px;
+}
+.picss{
+    width: 100%;
+}
+.v{
+    text-align: center;
+    font-size: x-large;
+    color: #12A4A8;
+    font-size: 50px;
+    padding: 20px;
+}
+.owners{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.j8{
+    width: 85%;
+    height: 400px;
+    padding: 20px;
+}
+.owner1,.owner2{
+    text-align: center;
+    margin: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.owner1:hover{
+    box-shadow: 0 8px 16px 0 rgba(5, 3, 3, 0.85);
+    transition: .4s ;
+}
+.owner2:hover{
+    box-shadow: 0 8px 16px 0 rgba(5, 3, 3, 0.85);
+    transition: .4s ;
+}
+.lista{
+    text-align: center;
+}
+.lista>i{
+
+margin-top: 15px;
+padding: 10px;
+border: .7px solid #333;
+border-radius: 15px;
+margin-left: 70px;
+}
+.bac>i{
+
+    margin-top: 15px;
+    padding: 10px;
+    border: .7px solid #333;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+.chefs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 45px;
+}
+h4,h2{
+    color: orange;
+    margin-top: 10px;
+}
+.special>i{
+    padding: 5px;
+    margin: 5px;
+    border: .7px solid #333;
+    border-radius: 15px;   
+}
+.p{
+    font-style: normal; 
+    font-size: large;
+     padding: 20px;
+}
+@media screen and (max-width: 1300px){
+  
+    .bac>i{
+        margin-top: 15px;
+        padding: 10px;
+        border: .7px solid #333;
+        border-radius: 15px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .bac>i{
+        margin-top: 15px;
+        padding: 10px;
+        border: .7px solid #333;
+        border-radius: 15px;
+        margin-left: 30px;
+    }
+    .j8{
+        width: 85%;
+        height: 300px;
+        padding: 20px;
+    }
+    .v{
+        text-align: center;
+        font-size: large;
+        color: #12A4A8;
+        font-size: 40px;
+        padding: 1px;
+    }
+    .dimage{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .pa{
+        font-style: normal; 
+        font-size: small;
+         padding: 10px;
+    }
+
+ 
+}
+@media screen and (max-width: 600px)
+{
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  div.box1{
+    width: 100%;
+  }
+  div.box2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+ .dimage{
+     display: none;
+ }
+ .v{
+    text-align: center;
+    font-size: medium;
+    color: #12A4A8;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.p{
+    font-style: normal; 
+    font-size: small;
+    padding: 20px;
+}
+.owners{
+    display: flex;
+    flex-direction: column;
+}
+.j8{
+    width: 85%;
+    height: 200px;
+    padding: 20px;
+}
+.bac>i{
+    margin-top: 15px;
+    padding: 10px;
+    border: .7px solid #333;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.container>div {
+    margin: 0px;
+}
+.chefs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.chefs>div{
+    width: 250px;
+}
+.lista>i{
+
+    margin-top: 15px;
+    padding: 10px;
+    border: .7px solid #333;
+    border-radius: 15px;
+    margin-left: 30px;
+    }
+}

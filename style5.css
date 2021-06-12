@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 0 rgba(85, 85, 85, 0.85);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+div.box1{
+  width: 25%;
+}
+div.box2{
+  width: 75%;
+}
+.box2>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
+}
+li{
+  display: block;
+}
+.logo{
+    width: 75px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+.header a:hover{
+    color: orange;
+    font-size: 20px;
+}
+ul{
+  display: flex;
+}
+.container>div {
+    margin-top: 150px;
+}
+.e{
+    color: rgb(163, 160, 160);
+ }
+ h3{
+     text-align: center;
+     color: #12A4A8;
+     padding-bottom: 20px;
+ }
+ .regos{
+     padding: 15px;
+     margin: 20PX;
+ }
+ .reg{
+     padding: 15px;
+     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+     width:100%;
+ }
+.q{
+    height: 100px;
+}
+ .l{
+     padding-top: 30px;
+    text-align: center;
+
+ }
+ .q>input{
+    width: 80%;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 6px;
+    border: .7px solid;
+    float: right;
+ }
+ .reg>form>div>input:hover,
+ .reg>form>div>textarea:hover
+{
+     border-color: orange;
+ }
+
+ .q>label{
+     float: left;
+     width: 20%;
+     font-size: 22px;
+     padding: 5px;
+ }
+#gender,.textarea{
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 6px;
+    border: .7px solid;
+    width: 80%;
+}
+.button{
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 6px;
+    border: .7px solid;
+    min-width: 10%;
+}
+.button :hover{
+    color: orange;
+}
+@media screen and (max-width: 800px)
+{
+  .container{
+        margin-top: 200px;
+    }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+   div.box1{
+    width: 100%;
+  }
+   div.box2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .q{
+    height: 70px;
+}
+ .q>input{
+    width: 70%;
+    font-size: 11px;
+    border-radius: 6px;
+    border: .7px solid;
+    float: right;
+ }
+ .q>label{
+     float: left;
+     width: 30%;
+     font-size: 15px;
+     padding: 2px;
+ }
+ #gender,.textarea{
+    font-size:11px;
+    border-radius: 6px;
+    border: .7px solid;
+    width: 70%;
+}
+.button{
+    font-size: 11px;
+    border-radius: 6px;
+    border: .7px solid;
+    min-width: 10%;
+}
+}
+@media screen and (max-width: 600px)
+{
+  .container{
+        margin-top: 200px;
+    }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+   div.box1{
+    width: 100%;
+  }
+   div.box2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .q{
+    height: 70px;
+}
+ .q>input{
+    width: 70%;
+    font-size: 11px;
+    border-radius: 6px;
+    border: .7px solid;
+    float: right;
+ }
+ .q>label{
+     float: left;
+     width: 30%;
+     font-size: 15px;
+     padding: 2px;
+ }
+ #gender,.textarea{
+    font-size:11px;
+    border-radius: 6px;
+    border: .7px solid;
+    width: 70%;
+}
+.button{
+    font-size: 11px;
+    border-radius: 6px;
+    border: .7px solid;
+    min-width: 10%;
+}
+.container{
+    margin: 0;
+}
+h3{
+    padding: 30px;
+}
+.regos{
+    padding: 5px;
+    margin: 5px;
+}
+}
